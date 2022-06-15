@@ -71,16 +71,45 @@ body {
     letter-spacing: 0.3px;
 }
 
-.container h3 {
+.container h4 {
     display: inline;
     font-weight: 500;
     color: #222a43;
+    letter-spacing: 1px;
 }
 
 .container span {
     color: #5d6274;
+    font-weight: 600;
+}
+
+.container h4 {
+    text-align: center;
+    display: inline;
+    font-weight: 700;
+    color: #222a43;
+}
+
+.container .coat-img {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    min-width: 2.0em;
+    margin: 1.0em auto 1.0em auto;
 }
 
 .container h3 {
     text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #ff465a;
+}
+
+.container h2 {
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
 }
