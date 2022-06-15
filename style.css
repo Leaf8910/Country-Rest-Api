@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif; 
 }
 
 body {
@@ -43,4 +44,43 @@ body {
     border-bottom: 2px solid rgb(155, 92, 92);
     outline: none;
     color: #222a43;
+}
+
+#result {
+    margin-top: 1.25em;
+}
+
+.container .flag-img {
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+}
+
+.container h1 {
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+}
+
+.data-wrapper {
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+
+.container h3 {
+    display: inline;
+    font-weight: 500;
+    color: #222a43;
+}
+
+.container span {
+    color: #5d6274;
+}
+
+.container h3 {
+    text-align: center;
 }
